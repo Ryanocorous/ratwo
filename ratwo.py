@@ -25,9 +25,32 @@ async def _m(v):
 def _cs(a, b):
     pass
 
+
 class Ratwo:
-    def __init__(self, direct_tools=("memory_*",), top_k=5, embed=None, hybrid=0.7, on_event=None):
-        pass
+
+    __init__()
+    is_direct()
+    _emit()
+
+    register()
+    register_skill()
+    register_fact()
+
+    _rank()
+    search_capabilities()
+
+    _run()
+    invoke_tool()
+
+    get_skill_content()
+    ground()
+    recall()
+
+    model_tools()
+    openai_tools()
+    handle_tool_call()
+
+    use_memory()
 
 class MemoryStore:
     def __init__(self, file=None):
