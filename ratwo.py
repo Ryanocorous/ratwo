@@ -8,8 +8,13 @@ _SM={w:g for g in _S for w in g}
 _W = re.compile(r"[a-z0-9_]+")
 
 def _w(s):
-    return _W.findall(str(s).lower())
-
+ ws=_W.findall(str(s).lower())
+ o=[]
+ for w in ws:
+  o.append(w)
+  o.extend(_SMAP.get(w,()))
+ return o
+    
 def _c(s, n=120):
     s = " ".join(str(s or "").split())
     return s if len(s) <= n else s[:n-1].rsplit(" ", 1)[0] + "…"
