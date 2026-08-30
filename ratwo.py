@@ -1,9 +1,10 @@
-import math, os, sys, time, re
+import asyncio, uuid, inspect, math, os, sys, time, re
 from pathlib import Path
 
 # for synonym library added after
-for _g in(_S0,_S1,_S2,_S3,_S4,_S5,_S6,_S7:
-     for w in _g:_SMAP[w]=_g
+_S=[x.split()for x in"word1 word2 word3;word4 word5 word6;word7 word8".split(";")]
+_SM={w:g for g in _S for w in g}
+
 _W = re.compile(r"[a-z0-9_]+")
 
 def _w(s):
