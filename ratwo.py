@@ -1,6 +1,9 @@
 import math, os, sys, time, re
 from pathlib import Path
 
+# for synonym library added after
+for _g in(_S0,_S1,_S2,_S3,_S4,_S5,_S6,_S7:
+     for w in _g:_SMAP[w]=_g
 _W = re.compile(r"[a-z0-9_]+")
 
 def _w(s):
