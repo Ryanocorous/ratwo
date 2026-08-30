@@ -1,8 +1,8 @@
 import math, os, sys, time
 from pathlib import Path
-_W=re.compile()
-def _w(s):
-    return _W.findall(str(s).lower())
+_W=re.compile(r"[a-z0-9_]+")
+def _w(s):return _W.findall(str(s).lower())
+def _c(s,n=120)
 def _c
 def _t
 def _d
