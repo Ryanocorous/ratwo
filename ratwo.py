@@ -1,4 +1,4 @@
-import asyncio, uuid, inspect, math, os, sys, time, re
+import asyncio, uuid, inspect, math, os, time, re
 from pathlib import Path
 
 # for synonym library added after. Needs a faster way
