@@ -1,8 +1,8 @@
 import asyncio, uuid, inspect, math, os, sys, time, re
 from pathlib import Path
 
-# for synonym library added after
-_S=[x.split()for x in"word1 word2 word3;word4 word5 word6;word7 word8".split(";")]
+# for synonym library added after. Needs a faster way
+_S=[x.split()for x in"execute run launch activate initiate invoke perform conduct administer send execution exe enact render implement utilise call trigger do launch start dispatch fire apply operate act evaluate eval;search lookup grep find look match seek replace discover pattern regex locate obtain scan query get retrieve hunt filter; compute calculate math addition sum algorithm ".split(";")]
 _SM={w:g for g in _S for w in g}
 
 _W = re.compile(r"[a-z0-9_]+")
