@@ -2,39 +2,24 @@
 
 import { readFile, writeFile, rename } from '';
 
-const words = s => [];
+import { readFile, writeFile, rename } from 'node:fs/promises';
+
+const words = s => (String(s).toLowerCase().match(/[a-z0-9_]+/g) || []);
 const clip = (s, n = 120) => {};
 const schemaText = s => {};
 const doc = x => {};
 const glob = (id, p) => {};
 const cosine = (a, b) => {};
+
 function check(v, s, p = '$') {}
 function bm25(items, q, k = 5) {}
+
 const SEARCH = {};
 const INVOKE = {};
 const SKILL = {};
+
 export class Ratel {
-  constructor(options = {};
-  isDirect = id => {};
-  emit = (type, data) => {};
-
-  async register(...xs) {}
-  registerSkill(...xs) {}
-  registerFact(...xs) {}
-
-  async _rank(items, query, k) {}
-  async searchCapabilities(query, options) {}
-  async invokeTool(toolId, args, context) {}
-  async _run(x, args, context, origin) {}
-  
-  getSkillContent(skillId) {}
-  async ground(text, options) {}
-  async recall(query, opts) {}
-
-  modelTools() {}
-  openAITools() {}
-  async handleToolCall(name, args, context) {}
-  async useMemory(memory, options) {}
+  constructor(options = {}) {}
 }
 
 export class MemoryStore {
@@ -52,5 +37,4 @@ export class MemoryStore {
 export const ratel = o => {};
 
 // testing logic
-if (process.argv[1] === new URL(import.meta.url).pathname
-}
+if (process.argv[1] === new URL(import.meta.url).pathname && process.argv.includes('--self-test')) {}
