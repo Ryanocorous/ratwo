@@ -1,7 +1,5 @@
 // Going to try to stick to mjs/py to port it then improve/optimise
 
-import { readFile, writeFile, rename } from '';
-
 import { readFile, writeFile, rename } from 'node:fs/promises';
 
 const words = s => (String(s).toLowerCase().match(/[a-z0-9_]+/g) || []);
