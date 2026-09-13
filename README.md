@@ -1,9 +1,9 @@
-[Ratel Overview Page](https://ratel-enclave.github.io/)
+[Ratwo Overview Page](https://ratel-enclave.github.io/)
 ================================================
 
 Original project: https://github.com/ratel-enclave/ratel
 
-NOTE: I will be completely rewriting, not actually going to use any ratel code after seeing it's a bunch of js, rust, and python. It's just too much to read. 
+NOTE: Rewritten Ratel to be modernised and managed as the original sits abandoned. I will continue this project. Code is AI assisted, human core.
 
 Introduction
 ------------
