@@ -1,0 +1,8 @@
+{
+  "name": "ratwo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node ratwo.mjs --self-test && python tests/compare.py"
+  }
+}
