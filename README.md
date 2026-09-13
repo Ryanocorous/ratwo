@@ -3,7 +3,7 @@
 
 Original project: https://github.com/ratel-enclave/ratel
 
-NOTE: Rewritten Ratel to be modernised and managed as the original sits abandoned. I will continue this project. Code is AI assisted, human core.
+NOTE: Rewritten Ratel core to be modernised and managed as the original sits abandoned. I will continue this project. Code is AI assisted, human-written base. Currently missing a lot of stuff. I started this when ratel wasn't being managed, but looks like it started up again.
 
 Introduction
 ------------
